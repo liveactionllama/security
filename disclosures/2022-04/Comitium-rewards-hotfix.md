@@ -30,13 +30,13 @@ The **EIP-2335** is a multi-facet proxy, meaning multiple contract implementatio
 
 Explained another way, the Diamond is a proxy that can point to different implementations depending on the called function. It first identifies the function that is called, and then it calls its implementation. Thus, it has a mapping of function signatures to implementations and delegates matched calls to each implementation.
 
-This primer should get you started with the Diamond Pattern; if you're interested in finding more, the [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535) is the best place to start.
+This primer should get you started with the Diamond Pattern; if you're interested in learning more, the [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535) is the best place to start.
 
 ---
 
 Our [Comitium](https://github.com/fiatdao/comitium) repository is a fork of [BarnBridge's](https://barnbridge.com/) rewards contracts [BarnBridge-Barn](https://github.com/BarnBridge/BarnBridge-Barn), since this helped us get started quickly and we had a lot more time working on [the core product](https://github.com/fiatdao/fiat) instead of the governance.
 
-This means that both repositories and [any fork](https://github.com/BarnBridge/BarnBridge-DAO/network/members) has the same possible vulnerability when the rewards contract is updated.
+This means that both repositories and [any fork](https://github.com/BarnBridge/BarnBridge-DAO/network/members) have the same possible vulnerability when the rewards contract is updated.
 
 ## Details of the vulnerability
 
