@@ -12,10 +12,4 @@ List of audits performed.
 
 ## 2022-03
 
-- [FIAT DAO Delphi Audit, Feb'22](./2022-03/FIAT%20DAO%20Delphi%20Audit,%20Feb'22.pdf)
-
-
-
-
-
-
+- [Dedaub - FIAT DAO Delphi Audit, Feb'22](./2022-03/Dedaub%20-%20FIAT%20DAO%20Delphi%20Audit,%20Feb'22.pdf)
